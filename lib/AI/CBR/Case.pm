@@ -96,13 +96,18 @@ sub set_values {
 }
 
 
+=head1 SEE ALSO
+
+See L<AI::CBR> for an overview of the framework.
+
+
 =head1 AUTHOR
 
 Darko Obradovic, C<< <dobradovic at gmx.de> >>
 
 =head1 BUGS
 
-Please report any bugs or feature requests to C<bug-ai-cbr-case at rt.cpan.org>, or through
+Please report any bugs or feature requests to C<bug-ai-cbr at rt.cpan.org>, or through
 the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=AI-CBR>.  I will be notified, and then you'll
 automatically be notified of progress on your bug as I make changes.
 
@@ -137,9 +142,6 @@ L<http://cpanratings.perl.org/d/AI-CBR>
 L<http://search.cpan.org/dist/AI-CBR>
 
 =back
-
-
-=head1 ACKNOWLEDGEMENTS
 
 
 =head1 COPYRIGHT & LICENSE

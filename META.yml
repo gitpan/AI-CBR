@@ -1,6 +1,6 @@
 ---
 name: AI-CBR
-version: 0.01
+version: 0.02
 author:
   - 'Darko Obradovic <dobradovic@gmx.de>'
 abstract: Framework for Case-Based Reasoning
@@ -12,7 +12,7 @@ build_requires:
 provides:
   AI::CBR:
     file: lib/AI/CBR.pm
-    version: 0.01
+    version: 0.02
   AI::CBR::Case:
     file: lib/AI/CBR/Case.pm
   AI::CBR::Case::Compound:

@@ -10,11 +10,11 @@ AI::CBR - Framework for Case-Based Reasoning
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 =head1 SYNOPSIS
@@ -24,7 +24,7 @@ our $VERSION = '0.01';
     use AI::CBR::Retrieval;
 
     my $case = AI::CBR::Case->new(...);
-    my $r = AI::CBR::Retrieval($case, \@case_base);
+    my $r = AI::CBR::Retrieval->new($case, \@case_base);
     ...
 
 
@@ -50,9 +50,9 @@ individual modules of this distribution.
 
 =item * L<AI::CBR::Case>
 
-=item * L<AI::CBR::Retrieval>
-
 =item * L<AI::CBR::Case::Compound>
+
+=item * L<AI::CBR::Retrieval>
 
 =back
 
@@ -63,7 +63,7 @@ Darko Obradovic, C<< <dobradovic at gmx.de> >>
 
 =head1 BUGS
 
-Please report any bugs or feature requests to C<bug-ai-cbr-case at rt.cpan.org>, or through
+Please report any bugs or feature requests to C<bug-ai-cbr at rt.cpan.org>, or through
 the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=AI-CBR>.  I will be notified, and then you'll
 automatically be notified of progress on your bug as I make changes.
 
@@ -74,7 +74,7 @@ automatically be notified of progress on your bug as I make changes.
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc AI::CBR::Case
+    perldoc AI::CBR
 
 
 You can also look for information at:
@@ -98,9 +98,6 @@ L<http://cpanratings.perl.org/d/AI-CBR>
 L<http://search.cpan.org/dist/AI-CBR>
 
 =back
-
-
-=head1 ACKNOWLEDGEMENTS
 
 
 =head1 COPYRIGHT & LICENSE
